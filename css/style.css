@@ -1,0 +1,264 @@
+/*
+Project Name: Relaxr Landing Page: Part 1;
+Client: Relaxr
+Author: Carla Muguiro
+Developer @GA in LA
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     background-color: #f0efef;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+
+#container {
+  width: 100%;
+  margin: auto;
+  height: 400px;
+
+}
+
+header {
+
+   height: 400px;
+   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+   background-size: cover;
+}
+
+.article {
+
+     font-family: 'Open Sans';
+     font-weight: 300;
+     letter-spacing: 0.01em;
+     color: #fff;
+     font-size: 18px;
+     text-align: center;
+     padding: 30px 80px 10px 80px;
+     height: 200px;
+     width: 100%;
+     margin: auto;
+     background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+     background-size: cover;
+
+}
+
+ul {
+    
+    padding-left: 80px;
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 300;
+
+}
+
+.benefits {
+     
+     color: #606161;
+     font-size: 13px;
+     align-content: left;
+     height: 250px;
+     background-color: #f0efef; 
+     padding: 10px 80px 20px 80px;
+}
+
+.button {
+  
+    color: #033048;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 5px;
+    background: #f9e42e;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    padding-top: 5px;
+    display: block;
+    align-content: center;
+    text-decoration:none;
+
+}
+
+.btn-alt {
+    
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    height: 30px; 
+    background-color: #033048;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.signoff {
+
+  font-weight: 600;
+
+}
+
+.wrapper {
+
+    float: left;
+
+}
+
+div {
+  
+  background-color: #f9e42e;
+  width: 100%;
+  margin: auto;
+  height: 70px;
+  align-content: center;
+  float: none;
+  padding-top: 20px;
+  
+}
+
+h1 {
+    
+    padding-top: 20px;
+    letter-spacing: 0.7px;
+    padding-left: 80px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800; 
+}
+
+h2 {
+     
+     padding-top: 60px;
+     padding-bottom: 40px;
+     font-size: 24px;
+     text-align: center;
+     color: #fff;
+     font-weight: 600; 
+     letter-spacing: 0.7px;
+}
+
+h3 {
+
+     font-weight: 600;
+     padding-left: 80px;
+     padding-top: 50px;
+     font-size: 20px;
+     color: #033048;
+}
+
+span .bold {
+
+     font-weight: 600;
+     font-style: none;
+     text-align: center;
+     padding-bottom: 20px;
+     font-size: 18px;
+     color: #fff;
+}
+
+.bullet {
+  
+  font-weight: 800;
+  font-size: 16px;
+}
+
+span {
+
+  font-weight: 800;
+  font-style: none;
+
+}
+
+h5 {
+    
+    text-align: center;
+    letter-spacing: 0.7px;
+    color: #f9e42e;
+    font-size: 24px;
+    font-weight: 800; 
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+
+h6 {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+footer {
+
+     text-align: center;
+     color: #fff;
+     font-size: 10px;
+     background-color: #121212;
+     height: 200px;
+     overflow:auto;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
