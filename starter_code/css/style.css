@@ -1,0 +1,380 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 0; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 0 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 15px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     background-color: #f0efef;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+#container {
+
+  width: 960px;
+  margin: auto;
+
+}
+
+
+header {
+   
+   background-color: #033048;
+   padding: 40px;
+
+}
+
+
+header li a {
+    
+  text-decoration: none;
+  color: #f9e42e;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  display: block;
+  padding: 8px;
+
+}
+
+header li a:link {
+    color: #f9e42e;
+}
+
+header li a:hover {
+    color: #fefcea;
+}
+
+header li a:active {
+    color: #faec6c;
+}
+
+.themes {
+
+  padding-bottom: 20px;
+
+}
+
+
+.themes li a {
+
+ list-style-type:none;
+ text-decoration: none;
+ font-size: 18px;
+ letter-spacing: 0.01em;
+ font-weight: 300;
+ color: #033048;
+
+}
+
+.themes li a:link {
+    color: #033048;
+}
+
+.themes li a:hover {
+    color: #f9e42e;
+}
+
+.themes li a:active {
+    color: #faec6c;
+}
+
+
+a {
+
+color: #fff;
+
+}
+
+.wrap {
+
+  padding: 40px;
+  background-color: #f0efef;
+  margin: 0 auto; 
+  display: flex;
+
+}
+
+.signup .btn-alt {
+
+  margin: 0 auto; 
+  display: flex;
+
+
+}
+
+.signup {
+
+  background-color: #f9e42e;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center;
+
+}
+
+.nav-items {
+
+  float:right;
+
+}
+
+.social {
+
+  display: inline-block;
+
+}
+
+.social img {
+
+  padding: 0px 10px 0px 10px;
+
+}
+
+.btn1 {
+  text-align: right;
+  padding: 0px 20px 10px 0px;
+  overflow: auto;
+}
+
+
+.nav-items li {
+ 
+ display: inline-block;
+
+}
+
+
+nav {
+  
+  float: right;
+  background-color: #033048;
+  width: 50%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 80px;
+  display: inline-block;
+  margin: 0;
+
+}
+
+
+article p {
+
+  color: #666;
+  font-size: 15px;
+  font-weight: 300;
+  background-color: #f0efef;
+
+}
+
+article {
+
+  padding-bottom: 20px;
+  padding-right: 20px;
+
+}
+
+
+.about {
+
+  color: #033048;
+  font-size: 15px;
+  font-weight: 300;
+  background-color: #f0efef;
+  padding-bottom: 20px;
+
+}
+
+
+h1 {
+    
+    float: left;
+    letter-spacing: 0.7px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800; 
+
+}
+
+
+h1, .nav-items li {
+  
+  height: 50px;
+  line-height: 50px;
+
+}
+
+
+.btn1 a {
+
+  font-size: 20px;
+  text-decoration: none;
+  color: #033048;
+  font-weight: 600;
+
+}
+
+.btn1 a:hover {
+    
+    color: #f9e42e;
+}
+
+h2 {
+
+  color: #033048;
+  font-size: 32px;
+  font-weight: 600; 
+
+}
+
+
+h3 {
+  
+  font-size: 22px;
+  font-weight: 800; 
+  padding-bottom: 10px;
+
+}
+
+
+h4 {
+
+  font-weight: 600;
+}
+
+
+.firstcharacter {
+  
+  color: #666;
+  float: left;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+
+}
+
+
+.signup a {
+
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: #033048;
+    padding: 10px 40px 10px 40px;
+    list-style-type:none;
+    text-decoration: none;
+
+}
+
+.signup a:hover {
+    
+    color: #f9e42e;
+}
+
+
+
+h5 {
+    text-align: center;
+    letter-spacing: 0.7px;
+    color: #f9e42e;
+    font-size: 24px;
+    font-weight: 800; 
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+
+
+h6 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+img {
+
+ padding-top: 20px; 
+ padding-bottom: 20px;
+
+}
+
+article hr {
+
+  padding-right: 20px;
+
+}
+
+footer {
+     text-align: center;
+     color: #fff;
+     font-size: 10px;
+     background-color: #121212;
+     overflow:auto;
+     width: 100%;
+    
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
